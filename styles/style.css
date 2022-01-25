@@ -4,7 +4,115 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  height: 100%;
+}
+
 body {
+  background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  min-height: 100%;
 }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 70px;
+  margin: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction:column ;
+  flex-grow: 2;
+  gap: 25px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  align-items: center;
+  background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 5px;
+  display: flex;
+  height: 60%;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.article {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+  
+  
+}
+
+.title {
+  color: rgb(19, 92, 165);
+  font-size: 30px;
+  line-height: 110%;
+  margin: 0;
+  padding: 35px 40px 0 40px;
+}
+
+.text {
+  font-size: 20px;
+  margin: 0;
+  padding: 15px 40px 0 40px;
+}
+
+.images {
+  margin: 0;
+  padding: 15px 40px 0 40px;
+}
+
+.log {
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.list {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 50 px;
+  
+}
+
+.item {
+  font-weight: 500;
+}
+
+.link {
+  font-size: 10px;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  color: rgb(12, 108, 233);
+}
+
+.link2{
+  font-size: 10px;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+  color: gray;
+}
+
+
+
